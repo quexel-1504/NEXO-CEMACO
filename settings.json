@@ -1,0 +1,8 @@
+{
+  // En Windows, la terminal de VS Code abre "Símbolo del sistema" (CMD):
+  // evita el error "npm.ps1 no se puede cargar" de PowerShell.
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "files.exclude": {
+    "**/node_modules": true
+  }
+}
